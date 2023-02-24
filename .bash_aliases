@@ -27,7 +27,7 @@ alias iptlistout='iptables -L OUTPUT -n -v --line-numbers'
 alias iptlistfw='iptables -L FORWARD -n -v --line-numbers'
 
 # Upgrade
-alias do-upgrade='apt update && apt upgrade -y && apt autoremove -y && apt clean'
+alias do_upgrade='apt update && apt upgrade -y && apt autoremove -y && apt clean'
 
 # Listening ports
 alias who_listens='netstat -tulapn | grep LISTEN'
